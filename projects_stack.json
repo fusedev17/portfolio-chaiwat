@@ -1,0 +1,211 @@
+[
+  {
+    "name": "cpac-line-liff-front",
+    "year": "2025-2026",
+    "techStack": [
+      "Nuxt.js",
+      "Pinia",
+      "Tailwind CSS",
+      "Vue.js"
+    ]
+  },
+  {
+    "name": "fixasset_front",
+    "year": "2026",
+    "techStack": [
+      "Docker",
+      "Nuxt.js",
+      "Pinia",
+      "Tailwind CSS",
+      "Vue.js"
+    ]
+  },
+  {
+    "name": "asia-metal-frontend",
+    "year": "2026",
+    "techStack": [
+      "Axios",
+      "Nuxt.js",
+      "Pinia",
+      "TypeScript",
+      "Vue.js"
+    ]
+  },
+  {
+    "name": "ai-commerce-consolidate-front",
+    "year": "2025-2026",
+    "techStack": [
+      "Axios",
+      "Nuxt.js",
+      "Pinia",
+      "Tailwind CSS",
+      "Vue.js"
+    ]
+  },
+  {
+    "name": "aivcs-front",
+    "year": "2026",
+    "techStack": [
+      "Nuxt.js",
+      "Pinia",
+      "Tailwind CSS",
+      "Vue.js"
+    ]
+  },
+  {
+    "name": "cpac-consolidate-front",
+    "year": "2025-2026",
+    "description": "ระบบผู้ช่วยตอบแชทอัจฉริยะที่รวมศูนย์การสื่อสารกับลูกค้าไว้ในที่เดียว รองรับการตอบกลับลูกค้าตามกลุ่มไลน์ต่างๆ ผ่านหน้าเว็บแอปพลิเคชัน ช่วยให้ทีมงานจัดการบทสนทนาได้อย่างเป็นระบบ รวดเร็ว และแม่นยำ พร้อมทั้งออกแบบและสร้าง Rich Menu บน Dialogflow เพื่อยกระดับประสบการณ์การใช้งานของลูกค้าให้เข้าถึงบริการได้สะดวกยิ่งขึ้น",
+    "techStack": [
+      "Axios",
+      "Nuxt.js",
+      "Pinia",
+      "Tailwind CSS",
+      "Vue.js"
+    ]
+  },
+  {
+    "name": "web-services",
+    "year": "2024-2025",
+    "techStack": [
+      "Nuxt.js",
+      "Pinia",
+      "Vue.js"
+    ]
+  },
+  {
+    "name": "steel-backoffice",
+    "year": "2025",
+    "techStack": [
+      "Nuxt.js"
+    ]
+  },
+  {
+    "name": "steel-web",
+    "year": "2025",
+    "techStack": [
+      "Nuxt.js"
+    ]
+  },
+  {
+    "name": "nurjoy_front",
+    "year": "2025",
+    "techStack": [
+      "Nuxt.js",
+      "Pinia",
+      "Tailwind CSS",
+      "Vue.js"
+    ]
+  },
+  {
+    "name": "consolidate-front",
+    "year": "2025",
+    "techStack": [
+      "Axios",
+      "Nuxt.js",
+      "Pinia",
+      "Tailwind CSS",
+      "Vue.js"
+    ]
+  },
+  {
+    "name": "bio-id-front",
+    "year": "2025",
+    "techStack": [
+      "Nuxt.js",
+      "Pinia",
+      "Tailwind CSS",
+      "Vue.js"
+    ]
+  },
+  {
+    "name": "ai-image-ocr",
+    "year": "2025",
+    "techStack": [
+      "Python"
+    ]
+  },
+  {
+    "name": "icellare-consolidate-front",
+    "year": "2025",
+    "techStack": [
+      "Axios",
+      "Nuxt.js",
+      "Pinia",
+      "Tailwind CSS",
+      "Vue.js"
+    ]
+  },
+  {
+    "name": "rudy-web-nuxt",
+    "year": "2024-2025",
+    "techStack": [
+      "Nuxt.js"
+    ]
+  },
+  {
+    "name": "rudy-neo-front",
+    "year": "2023-2024",
+    "techStack": [
+      "Nuxt.js",
+      "Vue.js"
+    ]
+  },
+  {
+    "name": "psis",
+    "year": "2024",
+    "techStack": [
+      "Axios",
+      "Docker",
+      "Next.js",
+      "React"
+    ]
+  },
+  {
+    "name": "line-consolidate-front",
+    "year": "",
+    "techStack": [
+      "Axios",
+      "Nuxt.js",
+      "Pinia",
+      "Tailwind CSS",
+      "Vue.js"
+    ]
+  },
+  {
+    "name": "asia-metal-linebot",
+    "year": "",
+    "techStack": [
+      "Axios",
+      "Docker",
+      "NestJS",
+      "Prisma",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "ai-topic-classification",
+    "year": "",
+    "techStack": [
+      "Python"
+    ]
+  },
+  {
+    "name": "smarttiger-backoffice",
+    "year": "",
+    "techStack": [
+      "Axios",
+      "Nuxt.js"
+    ]
+  },
+  {
+    "name": "icellare_front",
+    "year": "",
+    "techStack": [
+      "Nuxt.js",
+      "Pinia",
+      "Tailwind CSS",
+      "Vue.js"
+    ]
+  }
+]
