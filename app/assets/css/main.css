@@ -1,0 +1,91 @@
+@import 'tailwindcss';
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'IBM Plex Sans Thai', 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Space Grotesk', 'IBM Plex Sans Thai', ui-sans-serif, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --color-ink-950: #07070b;
+  --color-ink-900: #0a0a0f;
+  --color-ink-850: #101018;
+  --color-ink-800: #16161f;
+  --color-ink-700: #22222e;
+  --color-ink-600: #33333f;
+
+  --color-accent-400: #7dd3fc;
+  --color-accent-500: #38bdf8;
+  --color-accent-600: #0ea5e9;
+
+  --color-lime-glow: #bef264;
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-ink-900 text-slate-300 font-sans antialiased;
+    background-image:
+      radial-gradient(60rem 40rem at 15% -10%, color-mix(in oklab, var(--color-accent-500) 12%, transparent), transparent),
+      radial-gradient(50rem 40rem at 110% 10%, color-mix(in oklab, var(--color-lime-glow) 8%, transparent), transparent);
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-accent-500) 35%, transparent);
+    color: white;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display text-white tracking-tight;
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-5xl px-5 sm:px-8;
+  }
+
+  .section-eyebrow {
+    @apply inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-accent-400;
+  }
+
+  .card {
+    @apply rounded-2xl border border-white/8 bg-white/[0.02] backdrop-blur-sm transition-colors;
+  }
+
+  .card-hover {
+    @apply hover:border-accent-500/40 hover:bg-white/[0.04];
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-full border border-white/10 bg-white/[0.03] px-2.5 py-1 font-mono text-[11px] text-slate-400;
+  }
+}
+
+@keyframes float-in {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.reveal {
+  opacity: 0;
+}
+
+.reveal.is-visible {
+  animation: float-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal, .reveal.is-visible { opacity: 1; animation: none; }
+}
