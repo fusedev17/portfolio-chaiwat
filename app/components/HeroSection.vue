@@ -20,9 +20,9 @@ onUnmounted(() => clearInterval(timer))
           <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-lime-glow/70" />
           <span class="relative inline-flex h-2 w-2 rounded-full bg-lime-glow" />
         </span>
-        <span>เปิดรับโอกาสใหม่</span>
+        <span>Portfolio</span>
         <span class="text-slate-600">·</span>
-        <span class="text-slate-500">ทำงานจากยโสธร / กรุงเทพฯ</span>
+        <span class="text-slate-500">ผลงาน ประสบการณ์ ความสามารถ</span>
       </p>
 
       <h1 v-reveal="80" class="mt-6 text-4xl font-bold leading-[1.1] sm:text-6xl">
@@ -47,7 +47,7 @@ onUnmounted(() => clearInterval(timer))
 
       <p v-reveal="200" class="mt-6 max-w-xl text-sm leading-relaxed text-slate-400 sm:text-base">
         Frontend Developer ประสบการณ์ {{ personal.yearsOfExperience }} ปี
-        โฟกัสงานพัฒนา UI ของระบบธุรกิจขนาดใหญ่ด้วย Nuxt.js และ Vue.js
+        โฟกัสงานพัฒนา Frontend Developer ของระบบต่างๆ ด้วย Nuxt.js, Vue.js และ Next.js
         ตั้งแต่วางโครงสร้างโปรเจกต์ เชื่อมต่อ API ไปจนถึงส่งมอบระบบที่ใช้งานจริงในองค์กร
       </p>
 

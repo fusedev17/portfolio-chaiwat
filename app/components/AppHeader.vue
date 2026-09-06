@@ -27,7 +27,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
   >
     <div class="container-page flex h-16 items-center justify-between">
       <a href="#top" class="font-display text-sm font-semibold text-white">
-        ชัยวัฒน์<span class="text-accent-400">.</span>
+        Chaiwat Singkibut<span class="text-accent-400">.</span>
       </a>
 
       <nav class="hidden items-center gap-7 md:flex">
