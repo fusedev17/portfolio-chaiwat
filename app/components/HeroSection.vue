@@ -63,7 +63,7 @@ onUnmounted(() => clearInterval(timer))
           href="#contact"
           class="inline-flex items-center gap-2 rounded-lg border border-white/12 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:border-accent-500/40"
         >
-          ติดต่อผม
+          ติดต่อ
         </a>
         <div class="ml-1 flex items-center gap-1">
           <a

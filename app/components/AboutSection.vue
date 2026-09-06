@@ -25,9 +25,9 @@ const highlights = [
     <div class="container-page">
       <SectionHeading
         v-reveal
-        eyebrow="เกี่ยวกับผม"
+        eyebrow="เกี่ยวกับ"
         title="พัฒนา Frontend ให้ระบบธุรกิจที่ต้องใช้งานจริงทุกวัน"
-        description="ผมทำงานกับระบบองค์กรเป็นหลัก ทั้งงานสร้างใหม่และงานดูแลต่อ ตั้งแต่ระบบขาย เชื่อม SAP, แชทรวมศูนย์, วิดีโอคอนเฟอเรนซ์ผสาน AI ไปจนถึง Backoffice หลายตัว"
+        description="ทำงานกับระบบองค์กรเป็นหลัก ทั้งงานสร้างใหม่และงานดูแลต่อ ตั้งแต่ระบบขาย เชื่อม SAP, แชทรวมศูนย์, วิดีโอคอนเฟอเรนซ์ผสาน AI ไปจนถึง Backoffice หลายตัว"
       />
 
       <div class="mt-12 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">

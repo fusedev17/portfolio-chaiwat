@@ -38,7 +38,7 @@ const hiddenCount = computed(() => props.project.stack.length - 6)
     </p>
 
     <div v-if="open" class="mt-3 rounded-lg border border-white/8 bg-white/[0.02] p-3">
-      <p class="font-mono text-[10px] uppercase tracking-wider text-slate-600">บทบาทของผม</p>
+      <p class="font-mono text-[10px] uppercase tracking-wider text-slate-600">บทบาทของ</p>
       <p class="mt-1.5 text-xs leading-relaxed text-slate-300">{{ project.role }}</p>
     </div>
 
